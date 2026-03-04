@@ -29,26 +29,26 @@ body {
 
 .wid2 {
     grid-column: span 3 / span 3;
-    grid-row: span 4 / span 4;
-    grid-row-start: 3;
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
     border-radius: 5px 5px 5px 25px;
     background-color: #3b3737
 }
 
 .wid3 {
     grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
+    grid-row: span 1 / span 1;
     grid-column-start: 4;
-    grid-row-start: 3;
+    grid-row-start: 2;
     border-radius: 5px 5px 5px 5px;
     background-color: #3b3737
 }
 
 .wid4 {
     grid-column: span 2 / span 2;
-    grid-row: span 2 / span 2;
+    grid-row: span 1 / span 1;
     grid-column-start: 4;
-    grid-row-start: 5;
+    grid-row-start: 3;
     border-radius: 5px 5px 25px 5px;
     background-color: #3b3737
 }
@@ -56,5 +56,5 @@ body {
 .wid5 {
     grid-column: span 5 / span 5;
     grid-row: span 1 / span 1;
-    grid-row-start: 7;
+    grid-row-start: 4;
 }
