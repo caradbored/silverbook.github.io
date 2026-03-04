@@ -1,22 +1,3 @@
-/*.container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "top info top info top info"
-    "extract extract to do"
-    "extract extract emoji";
-}
-
-.top info { grid-area: top info; }
-
-.extract { grid-area: extract; }
-
-.to do { grid-area: to do; }
-
-.emoji { grid-area: emoji; }*/
-
 * {
   color: firebrick;
   font-family: sans-serif;
@@ -46,6 +27,8 @@ body {
     font-family: sans-serif;
     text-align: center;
     list-style-position: inside;
+    border-radius: 25px;
+    background-color: #73AD21;
   }
 
 .wid2 {
