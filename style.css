@@ -24,6 +24,14 @@
   list-style-position: inside;
 }
 
+body {
+  background: #000000;
+  background: -webkit-linear-gradient(143deg, rgba(0, 0, 0, 1) 14%, rgba(43, 22, 22, 1) 50%, rgba(41, 2, 2, 1) 86%);
+  background: -moz-linear-gradient(143deg, rgba(0, 0, 0, 1) 14%, rgba(43, 22, 22, 1) 50%, rgba(41, 2, 2, 1) 86%);
+  background: linear-gradient(143deg, rgba(0, 0, 0, 1) 14%, rgba(43, 22, 22, 1) 50%, rgba(41, 2, 2, 1) 86%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#290202", GradientType=0);
+}
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
