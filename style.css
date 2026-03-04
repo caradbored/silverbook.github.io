@@ -22,11 +22,7 @@ body {
     
 .wid1 {
     grid-column: span 5 / span 5;
-    grid-row: span 2 / span 2;
-    color: dodgerblue;
-    font-family: sans-serif;
-    text-align: center;
-    list-style-position: inside;
+    grid-row: span 1 / span 1;
     border-radius: 25px;
     background-color: #3b3737;
   }
