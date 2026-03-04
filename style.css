@@ -1,10 +1,3 @@
-* {
-  color: #ab4f4f;
-  font-family: sans-serif;
-  /*text-align: center;*/
-  /*list-style-position: inside;*/
-}
-
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -23,30 +16,3 @@
 .to do { grid-area: to do; }
 
 .emoji { grid-area: emoji; }
-
-
-.title {
-  color: darkred;
-  font-size: 84px;
-}
-
-body {
-  background: #000000;
-  background: -webkit-linear-gradient(143deg, rgba(0, 0, 0, 1) 14%, rgba(43, 22, 22, 1) 50%, rgba(41, 2, 2, 1) 86%);
-  background: -moz-linear-gradient(143deg, rgba(0, 0, 0, 1) 14%, rgba(43, 22, 22, 1) 50%, rgba(41, 2, 2, 1) 86%);
-  background: linear-gradient(143deg, rgba(0, 0, 0, 1) 14%, rgba(43, 22, 22, 1) 50%, rgba(41, 2, 2, 1) 86%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#290202", GradientType=0);
-}
-
-.snippet {
-  background: #1a0000;
-}
-
-#sniph2 {
-  color: darkred;
-}
-
-#snipp {
-  font-family: Georgia, serif;
-}
-
