@@ -17,6 +17,12 @@
 
 .emoji { grid-area: emoji; }*/
 
+* {
+  color: brickred;
+  font-family: sans-serif;
+  text-align: center;
+  list-style-position: inside;
+}
 
 .parent {
     display: grid;
