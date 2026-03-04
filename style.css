@@ -1,8 +1,8 @@
 * {
   color: #ab4f4f;
   font-family: sans-serif;
-  text-align: center;
-  list-style-position: inside;
+  /*text-align: center;*/
+  /*list-style-position: inside;*/
 }
 
 .container {  display: grid;
