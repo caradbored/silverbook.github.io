@@ -5,6 +5,26 @@
   list-style-position: inside;
 }
 
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "top info top info top info"
+    "extract extract to do"
+    "extract extract emoji";
+}
+
+.top info { grid-area: top info; }
+
+.extract { grid-area: extract; }
+
+.to do { grid-area: to do; }
+
+.emoji { grid-area: emoji; }
+
+
 .title {
   color: darkred;
   font-size: 84px;
