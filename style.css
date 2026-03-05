@@ -1,6 +1,6 @@
 * {
-  color: firebrick;
-  font-family: sans-serif;
+  color: #781414;
+  font-family: impact, fantasy;
   text-align: center;
   list-style-position: inside;
 }
@@ -23,16 +23,16 @@ body {
 .wid1 {
     grid-column: span 5 / span 5;
     grid-row: span 1 / span 1;
-    border-radius: 25px 25px 5px 5px;
-    background-color: #3b3737;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #1a0e0e;
   }
 
 .wid2 {
     grid-column: span 3 / span 3;
     grid-row: span 2 / span 2;
     grid-row-start: 2;
-    border-radius: 5px 5px 5px 25px;
-    background-color: #3b3737
+    border-radius: 25px 5px 5px 25px;
+    background-color: #1a0e0e
 }
 
 .wid3 {
@@ -40,8 +40,8 @@ body {
     grid-row: span 1 / span 1;
     grid-column-start: 4;
     grid-row-start: 2;
-    border-radius: 5px 5px 5px 5px;
-    background-color: #3b3737
+    border-radius: 5px 25px 5px 5px;
+    background-color: #1a0e0e
 }
 
 .wid4 {
@@ -50,7 +50,7 @@ body {
     grid-column-start: 4;
     grid-row-start: 3;
     border-radius: 5px 5px 25px 5px;
-    background-color: #3b3737
+    background-color: #1a0e0e
 }
 
 .wid5 {
