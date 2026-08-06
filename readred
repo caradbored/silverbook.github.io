@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Red (Chapters 1-4)</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!--<link rel="stylesheet" href="style.css">-->
+  </head>
+  <body>
+    <p>
+      READ THE BOOK BELOW:
+    </p>
+    <embed src="SpectraRed1.pdf" width="700" height="600" type="application/pdf">
+    <img class="emoji" src="https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/64fae94e3dc59b592aa1aaad_92.png" />
+  </body>
+</html>
