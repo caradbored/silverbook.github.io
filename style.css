@@ -32,7 +32,7 @@ body {
     grid-row: span 2 / span 2;
     grid-row-start: 2;
     border-radius: 25px 5px 5px 25px;
-    background-color: #1a0e0e
+    background-color: #1a0e0e;
     font-size: 64px;
 }
 
