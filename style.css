@@ -33,7 +33,7 @@ body {
     grid-row-start: 2;
     border-radius: 25px 5px 5px 25px;
     background-color: #1a0e0e;
-    font-size: 64px;
+    font-size: 48px;
 }
 
 .wid3 {
@@ -58,4 +58,8 @@ body {
     grid-column: span 5 / span 5;
     grid-row: span 1 / span 1;
     grid-row-start: 4;
+}
+
+#biglink {
+  font-size: 84px;
 }
